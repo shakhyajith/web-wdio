@@ -15,6 +15,10 @@ class ProductPage {
         return await Wrapper.getText(".shopping_cart_badge")
     }
 
+    async navigateToCartPage(){
+        await Wrapper.click('.shopping_cart_link')
+    }
+
 }
 
 

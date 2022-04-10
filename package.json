@@ -15,7 +15,8 @@
         "wdio-geckodriver-service": "^2.1.1"
     },
     "scripts": {
-        "wdio": "wdio run wdio.conf.js"
+        "wdio": "wdio run wdio.conf.js",
+        "allure:serve" :"allure serve"
     },
     "dependencies": {
         "allure-commandline": "^2.17.2"
